@@ -1,0 +1,77 @@
+@import "header";
+@import "footer";
+
+$color-bordo: #A60D2E;
+$color-footer: #61111A;
+$color-bg-light: #FFBBBB; 
+
+
+@mixin espacios ($alrededor, $afuera){
+    padding: $alrededor;
+    margin: $afuera;
+}
+
+@mixin titulos ($font-size, $color) {
+    font-size: $font-size;
+    color: $color;
+}
+
+*{
+    @include espacios(0, 0);
+}
+
+
+body{
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.subtitulo{
+    @include titulos(22px, $color-bordo);
+    margin: 40px 0;
+    font-weight: bold;
+}
+
+.imagen-index{
+    transition: all 0.5s;
+   
+    &:hover{
+        transform: scale(0.5,0.5);
+   }
+}
+
+.bgTextoCarousel{
+	background-color: $color-bordo;
+}
+
+.textoCarousel{
+	color: white;
+}
+
+.textos-index{
+    @include espacios(10px, 30px);
+    line-height: 30px;
+  
+}
+
+.boton-producto{
+    @include espacios(10px, 20px);
+
+    &:hover{
+        background-color:$color-bordo;
+        color: white;
+    }
+}
+
+.institucional{
+    @include espacios(10px, 20px);
+}
+
+form{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    background-color: $color-bordo;
+    color: white;
+    @include espacios(40px, 50px);
+}

@@ -1,0 +1,44 @@
+$color-bordo: #A60D2E;
+$color-footer: #61111A;
+
+@mixin contenedor ($bg-color, $font-color, $font-size){
+    background-color: $bg-color;
+    color: $font-color;
+    font-size: $font-size;
+}
+
+@mixin espacios ($alrededor, $afuera){
+    padding: $alrededor;
+    margin: $afuera;
+}
+
+
+header{
+    @include contenedor ($color-bordo, white, 30px);
+    
+}
+
+h1{
+    color: white;
+    font-size: 32px;
+    @include espacios(30px, 0px);
+}
+
+.bg-navbar{
+    @include contenedor($color-footer, white, 14px);
+    
+}
+
+.nav-item{
+    a {
+       &.nav-link{ 
+           color: #ffffff !important;
+       }
+    }
+
+    &:hover{
+        color:#B2ACAC;
+
+    }
+
+}

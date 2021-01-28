@@ -1,0 +1,21 @@
+$color-bordo: #A60D2E;
+$color-footer: #61111A;
+$font: "Raleway";
+
+@mixin contenedor ($bg-color, $font-color, $font-size){
+    background-color: $bg-color;
+    color: $font-color;
+    font-size: $font-size;
+}
+
+@mixin espacios ($alrededor, $afuera){
+    padding: $alrededor;
+    margin: $afuera;
+}
+
+footer{
+    @include contenedor($color-footer, white, 13px);
+    @include espacios(30px, 0);
+    line-height: 25px;
+    clear: both;
+}

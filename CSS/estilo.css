@@ -1,0 +1,80 @@
+header {
+  background-color: #A60D2E;
+  color: white;
+  font-size: 30px; }
+
+h1 {
+  color: white;
+  font-size: 32px;
+  padding: 30px;
+  margin: 0px; }
+
+.bg-navbar {
+  background-color: #61111A;
+  color: white;
+  font-size: 14px; }
+
+.nav-item a.nav-link {
+  color: #ffffff !important; }
+
+.nav-item:hover {
+  color: #B2ACAC; }
+
+footer {
+  background-color: #61111A;
+  color: white;
+  font-size: 13px;
+  padding: 30px;
+  margin: 0;
+  line-height: 25px;
+  clear: both; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif; }
+
+.subtitulo {
+  font-size: 22px;
+  color: #A60D2E;
+  margin: 40px 0;
+  font-weight: bold; }
+
+.imagen-index {
+  transition: all 0.5s; }
+  .imagen-index:hover {
+    transform: scale(0.5, 0.5); }
+
+.bgTextoCarousel {
+  background-color: #A60D2E; }
+
+.textoCarousel {
+  color: white; }
+
+.textos-index {
+  padding: 10px;
+  margin: 30px;
+  line-height: 30px; }
+
+.boton-producto {
+  padding: 10px;
+  margin: 20px; }
+  .boton-producto:hover {
+    background-color: #A60D2E;
+    color: white; }
+
+.institucional {
+  padding: 10px;
+  margin: 20px; }
+
+form {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 30px;
+  background-color: #A60D2E;
+  color: white;
+  padding: 40px;
+  margin: 50px; }

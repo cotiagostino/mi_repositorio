@@ -76,12 +76,21 @@ form{
     @include espacios(40px, 50px);
 }
 
-h3{
-    margin: 10px;
+.padre-marcas {
+    h3{
+        margin: 10px;
+        font-weight: bold;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
     .padre-marcas col img {
-          width: 100px;
+          width: 80px;
           }
+    
+    .hijo-marcas{
+            margin-bottom: 20px;
+        }
 }
+

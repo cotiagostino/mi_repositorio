@@ -44,7 +44,7 @@ body {
   font-weight: bold; }
 
 .imagen-index {
-  transition: all 0.5s; }
+  transition: all 0.4s; }
   .imagen-index:hover {
     transform: scale(0.5, 0.5); }
 
@@ -78,3 +78,10 @@ form {
   color: white;
   padding: 40px;
   margin: 50px; }
+
+h3 {
+  margin: 10px; }
+
+@media screen and (max-width: 768px) {
+  .padre-marcas col img {
+    width: 100px; } }

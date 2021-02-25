@@ -85,6 +85,6 @@ form {
 
 @media screen and (max-width: 768px) {
   .padre-marcas img {
-    width: 90px; }
+    width: 210px; }
   .hijo-marcas {
     margin-bottom: 50px; } }

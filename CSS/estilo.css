@@ -37,6 +37,9 @@ body {
   font-size: 18px;
   font-family: 'Raleway', sans-serif; }
 
+main img {
+  max-width: 100%; }
+
 .subtitulo {
   font-size: 22px;
   color: #A60D2E;

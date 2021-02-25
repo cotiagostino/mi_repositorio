@@ -26,6 +26,10 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+main img{
+    max-width: 100%;
+}
+
 .subtitulo{
     @include titulos(22px, $color-bordo);
     margin: 40px 0;
